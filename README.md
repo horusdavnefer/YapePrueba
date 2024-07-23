@@ -7,6 +7,7 @@ Tecnologias implementadas:
 - Combine para la capa logica.
 - Se implemento resolver como inyeccion de independencias.
 - Libreria dinamica generada con xcodebuild.
+- Libreria TOMTOMMaps como capa de navegacion
 
 ## Features
 
