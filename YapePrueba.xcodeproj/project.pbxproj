@@ -7,15 +7,125 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C96D6B74D82D17B08CDDABC /* Pods_YapePruebaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41B4ACE4EEA8DBD00C4E5231 /* Pods_YapePruebaTests.framework */; };
+		788ED3453FD329F2B6582001 /* Pods_YapePrueba.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FB6E8A68BB8AAC54AD1C961 /* Pods_YapePrueba.framework */; };
 		884B0AC12C45E127009229A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884B0AC02C45E127009229A0 /* AppDelegate.swift */; };
 		884B0AC32C45E127009229A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884B0AC22C45E127009229A0 /* SceneDelegate.swift */; };
-		884B0AC52C45E127009229A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884B0AC42C45E127009229A0 /* ViewController.swift */; };
 		884B0AC82C45E127009229A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 884B0AC62C45E127009229A0 /* Main.storyboard */; };
 		884B0ACA2C45E12C009229A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 884B0AC92C45E12C009229A0 /* Assets.xcassets */; };
 		884B0ACD2C45E12C009229A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 884B0ACB2C45E12C009229A0 /* LaunchScreen.storyboard */; };
 		884B0AD82C45E12D009229A0 /* YapePruebaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884B0AD72C45E12D009229A0 /* YapePruebaTests.swift */; };
 		884B0AE22C45E12D009229A0 /* YapePruebaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884B0AE12C45E12D009229A0 /* YapePruebaUITests.swift */; };
 		884B0AE42C45E12D009229A0 /* YapePruebaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884B0AE32C45E12D009229A0 /* YapePruebaUITestsLaunchTests.swift */; };
+		884B0B0A2C472A5B009229A0 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884B0B092C472A5B009229A0 /* NetworkService.swift */; };
+		884B0B0C2C473106009229A0 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884B0B0B2C473106009229A0 /* Request.swift */; };
+		884B0B0E2C4732CE009229A0 /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884B0B0D2C4732CE009229A0 /* APIResponse.swift */; };
+		884B0B102C47334E009229A0 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884B0B0F2C47334E009229A0 /* APIError.swift */; };
+		884B0B132C473591009229A0 /* NetworkServiceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884B0B122C473591009229A0 /* NetworkServiceType.swift */; };
+		884B0B172C4737BA009229A0 /* YapePruebaRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884B0B162C4737BA009229A0 /* YapePruebaRepository.swift */; };
+		884B0B192C4737ED009229A0 /* YapePruebaRepositoryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884B0B182C4737ED009229A0 /* YapePruebaRepositoryType.swift */; };
+		884B0B1B2C473B2B009229A0 /* Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884B0B1A2C473B2B009229A0 /* Injection.swift */; };
+		884B0B1E2C47E314009229A0 /* RecipeObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884B0B1D2C47E314009229A0 /* RecipeObject.swift */; };
+		884B0B212C47E49F009229A0 /* ApiRecipeObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884B0B202C47E49F009229A0 /* ApiRecipeObject.swift */; };
+		884B0B242C47E548009229A0 /* YapeWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884B0B232C47E548009229A0 /* YapeWrapper.swift */; };
+		884B0B272C47E742009229A0 /* WrapperType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884B0B262C47E742009229A0 /* WrapperType.swift */; };
+		884B0B2A2C47E782009229A0 /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884B0B292C47E782009229A0 /* Interactor.swift */; };
+		884B0B2C2C47E7E0009229A0 /* GetYapeRecipesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884B0B2B2C47E7E0009229A0 /* GetYapeRecipesInteractor.swift */; };
+		884B0B2E2C47E89F009229A0 /* DataConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884B0B2D2C47E89F009229A0 /* DataConstants.swift */; };
+		884B0B312C481A4C009229A0 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884B0B302C481A4C009229A0 /* HomeViewModel.swift */; };
+		884B0B392C4830B9009229A0 /* URLSession+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884B0B382C4830B9009229A0 /* URLSession+Extensions.swift */; };
+		884B0B3B2C48318D009229A0 /* YapeNavegationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884B0B3A2C48318D009229A0 /* YapeNavegationView.swift */; };
+		884B0B3E2C4833E2009229A0 /* LauncherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884B0B3D2C4833E2009229A0 /* LauncherViewController.swift */; };
+		884B0B412C4850DA009229A0 /* BaseNewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884B0B402C4850DA009229A0 /* BaseNewModel.swift */; };
+		884B0B432C485108009229A0 /* BaseViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884B0B422C485108009229A0 /* BaseViewModelProtocol.swift */; };
+		884B0B462C48513D009229A0 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884B0B452C48513D009229A0 /* BaseView.swift */; };
+		884B0B492C485191009229A0 /* ErrorHandlerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884B0B482C485191009229A0 /* ErrorHandlerProtocol.swift */; };
+		884B0B4C2C485BBA009229A0 /* HomeViewContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884B0B4B2C485BBA009229A0 /* HomeViewContract.swift */; };
+		884B0B4E2C485C5F009229A0 /* HomeYapeState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884B0B4D2C485C5F009229A0 /* HomeYapeState.swift */; };
+		884B0B512C4866C1009229A0 /* YapeErrorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884B0B502C4866C1009229A0 /* YapeErrorType.swift */; };
+		884B0B542C48673C009229A0 /* ConstantsUi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884B0B532C48673C009229A0 /* ConstantsUi.swift */; };
+		884B0B562C4867BE009229A0 /* Colors+Extesions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884B0B552C4867BE009229A0 /* Colors+Extesions.swift */; };
+		884B0B582C4876C3009229A0 /* YapeErrorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884B0B572C4876C3009229A0 /* YapeErrorProtocol.swift */; };
+		884B0B5C2C487792009229A0 /* YapeErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884B0B5B2C487792009229A0 /* YapeErrorView.swift */; };
+		886222B42C4A130F00BD94B4 /* DetailRecipeState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886222B32C4A130F00BD94B4 /* DetailRecipeState.swift */; };
+		886222B62C4A141400BD94B4 /* DetailRecipeViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886222B52C4A141400BD94B4 /* DetailRecipeViewModelType.swift */; };
+		886222B82C4A147400BD94B4 /* DetailRecipeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886222B72C4A147400BD94B4 /* DetailRecipeData.swift */; };
+		886222BA2C4A14CD00BD94B4 /* DetailRecipeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886222B92C4A14CD00BD94B4 /* DetailRecipeViewModel.swift */; };
+		886222BC2C4A15B400BD94B4 /* DetailRecipeViewUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886222BB2C4A15B400BD94B4 /* DetailRecipeViewUI.swift */; };
+		886222BF2C4A1B3900BD94B4 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886222BE2C4A1B3900BD94B4 /* CustomTabView.swift */; };
+		886222C12C4A1D5700BD94B4 /* TabViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886222C02C4A1D5700BD94B4 /* TabViewItem.swift */; };
+		886222C32C4A21E500BD94B4 /* UIApplication+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886222C22C4A21E500BD94B4 /* UIApplication+Extensions.swift */; };
+		886222C92C4A349000BD94B4 /* IngredientsObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886222C82C4A349000BD94B4 /* IngredientsObject.swift */; };
+		886222CB2C4A504400BD94B4 /* StepStepObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886222CA2C4A504400BD94B4 /* StepStepObject.swift */; };
+		886222CD2C4A516000BD94B4 /* TabCountViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886222CC2C4A516000BD94B4 /* TabCountViewItem.swift */; };
+		886222D02C4A583900BD94B4 /* RouteViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886222CF2C4A583900BD94B4 /* RouteViewState.swift */; };
+		886222D22C4A588F00BD94B4 /* RouteViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886222D12C4A588F00BD94B4 /* RouteViewModelType.swift */; };
+		886222D42C4A58C100BD94B4 /* RouteData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886222D32C4A58C100BD94B4 /* RouteData.swift */; };
+		886222D62C4A58FF00BD94B4 /* RouteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886222D52C4A58FF00BD94B4 /* RouteViewModel.swift */; };
+		886222D82C4A5A8B00BD94B4 /* RouteViewUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886222D72C4A5A8B00BD94B4 /* RouteViewUI.swift */; };
+		886222DA2C4A5B2100BD94B4 /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886222D92C4A5B2100BD94B4 /* Keys.swift */; };
+		886222DE2C4A5F5A00BD94B4 /* TomTomServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886222DD2C4A5F5A00BD94B4 /* TomTomServices.swift */; };
+		886222E12C4A639B00BD94B4 /* TomTomSDKBindingFrameworkHTTPInternal in Frameworks */ = {isa = PBXBuildFile; productRef = 886222E02C4A639B00BD94B4 /* TomTomSDKBindingFrameworkHTTPInternal */; };
+		886222E32C4A639B00BD94B4 /* TomTomSDKBindingFrameworkLoggingInternal in Frameworks */ = {isa = PBXBuildFile; productRef = 886222E22C4A639B00BD94B4 /* TomTomSDKBindingFrameworkLoggingInternal */; };
+		886222E52C4A639B00BD94B4 /* TomTomSDKBindingMapDisplayEngineInternal in Frameworks */ = {isa = PBXBuildFile; productRef = 886222E42C4A639B00BD94B4 /* TomTomSDKBindingMapDisplayEngineInternal */; };
+		886222E72C4A639B00BD94B4 /* TomTomSDKBindingTrafficTileGeneratorInternal in Frameworks */ = {isa = PBXBuildFile; productRef = 886222E62C4A639B00BD94B4 /* TomTomSDKBindingTrafficTileGeneratorInternal */; };
+		886222E92C4A639B00BD94B4 /* TomTomSDKCommon in Frameworks */ = {isa = PBXBuildFile; productRef = 886222E82C4A639B00BD94B4 /* TomTomSDKCommon */; };
+		886222EB2C4A639B00BD94B4 /* TomTomSDKCommonUI in Frameworks */ = {isa = PBXBuildFile; productRef = 886222EA2C4A639B00BD94B4 /* TomTomSDKCommonUI */; };
+		886222ED2C4A639B00BD94B4 /* TomTomSDKDynamicData in Frameworks */ = {isa = PBXBuildFile; productRef = 886222EC2C4A639B00BD94B4 /* TomTomSDKDynamicData */; };
+		886222EF2C4A639B00BD94B4 /* TomTomSDKDynamicDataOnline in Frameworks */ = {isa = PBXBuildFile; productRef = 886222EE2C4A639B00BD94B4 /* TomTomSDKDynamicDataOnline */; };
+		886222F12C4A639B00BD94B4 /* TomTomSDKFeatureToggle in Frameworks */ = {isa = PBXBuildFile; productRef = 886222F02C4A639B00BD94B4 /* TomTomSDKFeatureToggle */; };
+		886222F32C4A639B00BD94B4 /* TomTomSDKLocationProvider in Frameworks */ = {isa = PBXBuildFile; productRef = 886222F22C4A639B00BD94B4 /* TomTomSDKLocationProvider */; };
+		886222F52C4A639B00BD94B4 /* TomTomSDKMQTT in Frameworks */ = {isa = PBXBuildFile; productRef = 886222F42C4A639B00BD94B4 /* TomTomSDKMQTT */; };
+		886222F72C4A639B00BD94B4 /* TomTomSDKMapDisplay in Frameworks */ = {isa = PBXBuildFile; productRef = 886222F62C4A639B00BD94B4 /* TomTomSDKMapDisplay */; };
+		886222F92C4A639B00BD94B4 /* TomTomSDKNetworking in Frameworks */ = {isa = PBXBuildFile; productRef = 886222F82C4A639B00BD94B4 /* TomTomSDKNetworking */; };
+		886222FB2C4A639B00BD94B4 /* TomTomSDKPOIVisualization in Frameworks */ = {isa = PBXBuildFile; productRef = 886222FA2C4A639B00BD94B4 /* TomTomSDKPOIVisualization */; };
+		886222FD2C4A639B00BD94B4 /* TomTomSDKPersonalData in Frameworks */ = {isa = PBXBuildFile; productRef = 886222FC2C4A639B00BD94B4 /* TomTomSDKPersonalData */; };
+		886222FF2C4A639B00BD94B4 /* TomTomSDKPersonalDataDefault in Frameworks */ = {isa = PBXBuildFile; productRef = 886222FE2C4A639B00BD94B4 /* TomTomSDKPersonalDataDefault */; };
+		886223012C4A639B00BD94B4 /* TomTomSDKRangeCalculator in Frameworks */ = {isa = PBXBuildFile; productRef = 886223002C4A639B00BD94B4 /* TomTomSDKRangeCalculator */; };
+		886223032C4A639B00BD94B4 /* TomTomSDKRangeVisualization in Frameworks */ = {isa = PBXBuildFile; productRef = 886223022C4A639B00BD94B4 /* TomTomSDKRangeVisualization */; };
+		886223052C4A639B00BD94B4 /* TomTomSDKReverseGeocoder in Frameworks */ = {isa = PBXBuildFile; productRef = 886223042C4A639B00BD94B4 /* TomTomSDKReverseGeocoder */; };
+		886223072C4A639B00BD94B4 /* TomTomSDKReverseGeocoderOnline in Frameworks */ = {isa = PBXBuildFile; productRef = 886223062C4A639B00BD94B4 /* TomTomSDKReverseGeocoderOnline */; };
+		886223092C4A639B00BD94B4 /* TomTomSDKRoute in Frameworks */ = {isa = PBXBuildFile; productRef = 886223082C4A639B00BD94B4 /* TomTomSDKRoute */; };
+		8862230B2C4A639B00BD94B4 /* TomTomSDKRoutePlanner in Frameworks */ = {isa = PBXBuildFile; productRef = 8862230A2C4A639B00BD94B4 /* TomTomSDKRoutePlanner */; };
+		8862230D2C4A639B00BD94B4 /* TomTomSDKRoutePlannerOnline in Frameworks */ = {isa = PBXBuildFile; productRef = 8862230C2C4A639B00BD94B4 /* TomTomSDKRoutePlannerOnline */; };
+		8862230F2C4A639B00BD94B4 /* TomTomSDKRoutingCommon in Frameworks */ = {isa = PBXBuildFile; productRef = 8862230E2C4A639B00BD94B4 /* TomTomSDKRoutingCommon */; };
+		886223112C4A639B00BD94B4 /* TomTomSDKRoutingVisualization in Frameworks */ = {isa = PBXBuildFile; productRef = 886223102C4A639B00BD94B4 /* TomTomSDKRoutingVisualization */; };
+		886223132C4A639B00BD94B4 /* TomTomSDKSearch in Frameworks */ = {isa = PBXBuildFile; productRef = 886223122C4A639B00BD94B4 /* TomTomSDKSearch */; };
+		886223152C4A639B00BD94B4 /* TomTomSDKSearchCommon in Frameworks */ = {isa = PBXBuildFile; productRef = 886223142C4A639B00BD94B4 /* TomTomSDKSearchCommon */; };
+		886223172C4A639B00BD94B4 /* TomTomSDKSearchOnline in Frameworks */ = {isa = PBXBuildFile; productRef = 886223162C4A639B00BD94B4 /* TomTomSDKSearchOnline */; };
+		886223192C4A639B00BD94B4 /* TomTomSDKSearchUI in Frameworks */ = {isa = PBXBuildFile; productRef = 886223182C4A639B00BD94B4 /* TomTomSDKSearchUI */; };
+		8862231B2C4A639B00BD94B4 /* TomTomSDKSearchVisualization in Frameworks */ = {isa = PBXBuildFile; productRef = 8862231A2C4A639B00BD94B4 /* TomTomSDKSearchVisualization */; };
+		8862231D2C4A639B00BD94B4 /* TomTomSDKTelemetry in Frameworks */ = {isa = PBXBuildFile; productRef = 8862231C2C4A639B00BD94B4 /* TomTomSDKTelemetry */; };
+		8862231F2C4A639B00BD94B4 /* TomTomSDKTraffic in Frameworks */ = {isa = PBXBuildFile; productRef = 8862231E2C4A639B00BD94B4 /* TomTomSDKTraffic */; };
+		886223212C4A639B00BD94B4 /* TomTomSDKTrafficDataProvider in Frameworks */ = {isa = PBXBuildFile; productRef = 886223202C4A639B00BD94B4 /* TomTomSDKTrafficDataProvider */; };
+		886223232C4A639B00BD94B4 /* TomTomSDKVehicle in Frameworks */ = {isa = PBXBuildFile; productRef = 886223222C4A639B00BD94B4 /* TomTomSDKVehicle */; };
+		886223272C4A6C2400BD94B4 /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886223262C4A6C2400BD94B4 /* BackButton.swift */; };
+		8862232D2C4D382200BD94B4 /* MapCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8862232C2C4D382200BD94B4 /* MapCoordinator.swift */; };
+		888588F82C4DAA4000646C38 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888588F72C4DAA4000646C38 /* NavigationController.swift */; };
+		888588FC2C4DB4EE00646C38 /* TomTomSDKNavigation in Frameworks */ = {isa = PBXBuildFile; productRef = 888588FB2C4DB4EE00646C38 /* TomTomSDKNavigation */; };
+		888588FE2C4DB4EE00646C38 /* TomTomSDKNavigationEngines in Frameworks */ = {isa = PBXBuildFile; productRef = 888588FD2C4DB4EE00646C38 /* TomTomSDKNavigationEngines */; };
+		888589002C4DB4EE00646C38 /* TomTomSDKNavigationHorizonDataAdapter in Frameworks */ = {isa = PBXBuildFile; productRef = 888588FF2C4DB4EE00646C38 /* TomTomSDKNavigationHorizonDataAdapter */; };
+		888589022C4DB4EE00646C38 /* TomTomSDKNavigationOffRoad in Frameworks */ = {isa = PBXBuildFile; productRef = 888589012C4DB4EE00646C38 /* TomTomSDKNavigationOffRoad */; };
+		888589042C4DB4EE00646C38 /* TomTomSDKNavigationOnline in Frameworks */ = {isa = PBXBuildFile; productRef = 888589032C4DB4EE00646C38 /* TomTomSDKNavigationOnline */; };
+		888589062C4DB4EE00646C38 /* TomTomSDKNavigationTileStore in Frameworks */ = {isa = PBXBuildFile; productRef = 888589052C4DB4EE00646C38 /* TomTomSDKNavigationTileStore */; };
+		888589082C4DB4EE00646C38 /* TomTomSDKNavigationUI in Frameworks */ = {isa = PBXBuildFile; productRef = 888589072C4DB4EE00646C38 /* TomTomSDKNavigationUI */; };
+		8885890A2C4DB4EE00646C38 /* TomTomSDKNavigationVisualization in Frameworks */ = {isa = PBXBuildFile; productRef = 888589092C4DB4EE00646C38 /* TomTomSDKNavigationVisualization */; };
+		88D78B1D2C4934DE009FB141 /* HomeViewUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D78B1C2C4934DE009FB141 /* HomeViewUI.swift */; };
+		88D78B1F2C493504009FB141 /* SkeletonForEachWithIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D78B1E2C493504009FB141 /* SkeletonForEachWithIndex.swift */; };
+		88D78B222C49377A009FB141 /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D78B212C49377A009FB141 /* CarouselView.swift */; };
+		88D78B252C4937E7009FB141 /* CarouselCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D78B242C4937E7009FB141 /* CarouselCellView.swift */; };
+		88D78B282C49395A009FB141 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D78B272C49395A009FB141 /* ActivityIndicator.swift */; };
+		88D78B2A2C4939FD009FB141 /* Url+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D78B292C4939FD009FB141 /* Url+Extension.swift */; };
+		88D78B2D2C493CFA009FB141 /* ButtonSelectedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D78B2C2C493CFA009FB141 /* ButtonSelectedView.swift */; };
+		88D78B302C497C56009FB141 /* RecipeCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D78B2F2C497C56009FB141 /* RecipeCellView.swift */; };
+		88D78B332C497D11009FB141 /* RecipeCellViewVertical.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D78B322C497D11009FB141 /* RecipeCellViewVertical.swift */; };
+		88D78B352C497DE4009FB141 /* Image+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D78B342C497DE4009FB141 /* Image+Extensions.swift */; };
+		88D78B372C497EC7009FB141 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D78B362C497EC7009FB141 /* View+Extension.swift */; };
+		88D78B3A2C497EF7009FB141 /* RoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D78B392C497EF7009FB141 /* RoundedCorner.swift */; };
+		88D78B3C2C497F54009FB141 /* RecipeCellViewHorizontal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D78B3B2C497F54009FB141 /* RecipeCellViewHorizontal.swift */; };
+		88F84F0D2C4DF779006273EC /* TomTomSDKPersonalData in Frameworks */ = {isa = PBXBuildFile; productRef = 88F84F0C2C4DF779006273EC /* TomTomSDKPersonalData */; };
+		88F84F122C4E7BED006273EC /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F84F112C4E7BED006273EC /* Content.swift */; };
+		8DC1C4CCE4A7A5FE2721721B /* Pods_YapePrueba_YapePruebaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B3FFEF94D23588C527D6EA9 /* Pods_YapePrueba_YapePruebaUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +146,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B3FFEF94D23588C527D6EA9 /* Pods_YapePrueba_YapePruebaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YapePrueba_YapePruebaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3322E7BC88BBC1C7A231A11C /* Pods-YapePrueba-YapePruebaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YapePrueba-YapePruebaUITests.release.xcconfig"; path = "Target Support Files/Pods-YapePrueba-YapePruebaUITests/Pods-YapePrueba-YapePruebaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3FB6E8A68BB8AAC54AD1C961 /* Pods_YapePrueba.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YapePrueba.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41B4ACE4EEA8DBD00C4E5231 /* Pods_YapePruebaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YapePruebaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5545464157BF68AE1A76B139 /* Pods-YapePruebaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YapePruebaTests.debug.xcconfig"; path = "Target Support Files/Pods-YapePruebaTests/Pods-YapePruebaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6E2417309DA3416EF16F2A69 /* Pods-YapePrueba.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YapePrueba.debug.xcconfig"; path = "Target Support Files/Pods-YapePrueba/Pods-YapePrueba.debug.xcconfig"; sourceTree = "<group>"; };
 		884B0ABD2C45E127009229A0 /* YapePrueba.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YapePrueba.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		884B0AC02C45E127009229A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		884B0AC22C45E127009229A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		884B0AC42C45E127009229A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		884B0AC72C45E127009229A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		884B0AC92C45E12C009229A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		884B0ACC2C45E12C009229A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +164,74 @@
 		884B0ADD2C45E12D009229A0 /* YapePruebaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YapePruebaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		884B0AE12C45E12D009229A0 /* YapePruebaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YapePruebaUITests.swift; sourceTree = "<group>"; };
 		884B0AE32C45E12D009229A0 /* YapePruebaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YapePruebaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		884B0B092C472A5B009229A0 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		884B0B0B2C473106009229A0 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		884B0B0D2C4732CE009229A0 /* APIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponse.swift; sourceTree = "<group>"; };
+		884B0B0F2C47334E009229A0 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		884B0B122C473591009229A0 /* NetworkServiceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceType.swift; sourceTree = "<group>"; };
+		884B0B162C4737BA009229A0 /* YapePruebaRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = YapePruebaRepository.swift; path = ../../../../../../../YapePruebaRepository.swift; sourceTree = "<group>"; };
+		884B0B182C4737ED009229A0 /* YapePruebaRepositoryType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = YapePruebaRepositoryType.swift; path = ../../../../../../../YapePruebaRepositoryType.swift; sourceTree = "<group>"; };
+		884B0B1A2C473B2B009229A0 /* Injection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Injection.swift; path = ../../../../../../Injection.swift; sourceTree = "<group>"; };
+		884B0B1D2C47E314009229A0 /* RecipeObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RecipeObject.swift; path = ../../../../../../../RecipeObject.swift; sourceTree = "<group>"; };
+		884B0B202C47E49F009229A0 /* ApiRecipeObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ApiRecipeObject.swift; path = ../../../../../../../ApiRecipeObject.swift; sourceTree = "<group>"; };
+		884B0B232C47E548009229A0 /* YapeWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = YapeWrapper.swift; path = ../../../../../../../YapeWrapper.swift; sourceTree = "<group>"; };
+		884B0B262C47E742009229A0 /* WrapperType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WrapperType.swift; path = ../../../../../../../../WrapperType.swift; sourceTree = "<group>"; };
+		884B0B292C47E782009229A0 /* Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Interactor.swift; path = ../../../../../../../Interactor.swift; sourceTree = "<group>"; };
+		884B0B2B2C47E7E0009229A0 /* GetYapeRecipesInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetYapeRecipesInteractor.swift; sourceTree = "<group>"; };
+		884B0B2D2C47E89F009229A0 /* DataConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataConstants.swift; sourceTree = "<group>"; };
+		884B0B302C481A4C009229A0 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		884B0B382C4830B9009229A0 /* URLSession+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLSession+Extensions.swift"; sourceTree = "<group>"; };
+		884B0B3A2C48318D009229A0 /* YapeNavegationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YapeNavegationView.swift; sourceTree = "<group>"; };
+		884B0B3D2C4833E2009229A0 /* LauncherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LauncherViewController.swift; sourceTree = "<group>"; };
+		884B0B402C4850DA009229A0 /* BaseNewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNewModel.swift; sourceTree = "<group>"; };
+		884B0B422C485108009229A0 /* BaseViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModelProtocol.swift; sourceTree = "<group>"; };
+		884B0B452C48513D009229A0 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		884B0B482C485191009229A0 /* ErrorHandlerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandlerProtocol.swift; sourceTree = "<group>"; };
+		884B0B4B2C485BBA009229A0 /* HomeViewContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewContract.swift; sourceTree = "<group>"; };
+		884B0B4D2C485C5F009229A0 /* HomeYapeState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeYapeState.swift; sourceTree = "<group>"; };
+		884B0B502C4866C1009229A0 /* YapeErrorType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YapeErrorType.swift; sourceTree = "<group>"; };
+		884B0B532C48673C009229A0 /* ConstantsUi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsUi.swift; sourceTree = "<group>"; };
+		884B0B552C4867BE009229A0 /* Colors+Extesions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Colors+Extesions.swift"; sourceTree = "<group>"; };
+		884B0B572C4876C3009229A0 /* YapeErrorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YapeErrorProtocol.swift; sourceTree = "<group>"; };
+		884B0B5B2C487792009229A0 /* YapeErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YapeErrorView.swift; sourceTree = "<group>"; };
+		886222B32C4A130F00BD94B4 /* DetailRecipeState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRecipeState.swift; sourceTree = "<group>"; };
+		886222B52C4A141400BD94B4 /* DetailRecipeViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRecipeViewModelType.swift; sourceTree = "<group>"; };
+		886222B72C4A147400BD94B4 /* DetailRecipeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRecipeData.swift; sourceTree = "<group>"; };
+		886222B92C4A14CD00BD94B4 /* DetailRecipeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRecipeViewModel.swift; sourceTree = "<group>"; };
+		886222BB2C4A15B400BD94B4 /* DetailRecipeViewUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRecipeViewUI.swift; sourceTree = "<group>"; };
+		886222BE2C4A1B3900BD94B4 /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
+		886222C02C4A1D5700BD94B4 /* TabViewItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewItem.swift; sourceTree = "<group>"; };
+		886222C22C4A21E500BD94B4 /* UIApplication+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extensions.swift"; sourceTree = "<group>"; };
+		886222C82C4A349000BD94B4 /* IngredientsObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsObject.swift; sourceTree = "<group>"; };
+		886222CA2C4A504400BD94B4 /* StepStepObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepStepObject.swift; sourceTree = "<group>"; };
+		886222CC2C4A516000BD94B4 /* TabCountViewItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabCountViewItem.swift; sourceTree = "<group>"; };
+		886222CF2C4A583900BD94B4 /* RouteViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteViewState.swift; sourceTree = "<group>"; };
+		886222D12C4A588F00BD94B4 /* RouteViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteViewModelType.swift; sourceTree = "<group>"; };
+		886222D32C4A58C100BD94B4 /* RouteData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteData.swift; sourceTree = "<group>"; };
+		886222D52C4A58FF00BD94B4 /* RouteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteViewModel.swift; sourceTree = "<group>"; };
+		886222D72C4A5A8B00BD94B4 /* RouteViewUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteViewUI.swift; sourceTree = "<group>"; };
+		886222D92C4A5B2100BD94B4 /* Keys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
+		886222DD2C4A5F5A00BD94B4 /* TomTomServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TomTomServices.swift; sourceTree = "<group>"; };
+		886223262C4A6C2400BD94B4 /* BackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
+		8862232C2C4D382200BD94B4 /* MapCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapCoordinator.swift; sourceTree = "<group>"; };
+		888588F72C4DAA4000646C38 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		88D78B1C2C4934DE009FB141 /* HomeViewUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewUI.swift; sourceTree = "<group>"; };
+		88D78B1E2C493504009FB141 /* SkeletonForEachWithIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonForEachWithIndex.swift; sourceTree = "<group>"; };
+		88D78B212C49377A009FB141 /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
+		88D78B242C4937E7009FB141 /* CarouselCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselCellView.swift; sourceTree = "<group>"; };
+		88D78B272C49395A009FB141 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		88D78B292C4939FD009FB141 /* Url+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Url+Extension.swift"; sourceTree = "<group>"; };
+		88D78B2C2C493CFA009FB141 /* ButtonSelectedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonSelectedView.swift; sourceTree = "<group>"; };
+		88D78B2F2C497C56009FB141 /* RecipeCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCellView.swift; sourceTree = "<group>"; };
+		88D78B322C497D11009FB141 /* RecipeCellViewVertical.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCellViewVertical.swift; sourceTree = "<group>"; };
+		88D78B342C497DE4009FB141 /* Image+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+Extensions.swift"; sourceTree = "<group>"; };
+		88D78B362C497EC7009FB141 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		88D78B392C497EF7009FB141 /* RoundedCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorner.swift; sourceTree = "<group>"; };
+		88D78B3B2C497F54009FB141 /* RecipeCellViewHorizontal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCellViewHorizontal.swift; sourceTree = "<group>"; };
+		88F84F112C4E7BED006273EC /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
+		A4805741798E96CE3E399BE4 /* Pods-YapePrueba-YapePruebaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YapePrueba-YapePruebaUITests.debug.xcconfig"; path = "Target Support Files/Pods-YapePrueba-YapePruebaUITests/Pods-YapePrueba-YapePruebaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DB249B6AAD9508C1BE8D9CA0 /* Pods-YapePruebaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YapePruebaTests.release.xcconfig"; path = "Target Support Files/Pods-YapePruebaTests/Pods-YapePruebaTests.release.xcconfig"; sourceTree = "<group>"; };
+		EB0155BF7CE689300609C7AF /* Pods-YapePrueba.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YapePrueba.release.xcconfig"; path = "Target Support Files/Pods-YapePrueba/Pods-YapePrueba.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +239,49 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8862230F2C4A639B00BD94B4 /* TomTomSDKRoutingCommon in Frameworks */,
+				886222EB2C4A639B00BD94B4 /* TomTomSDKCommonUI in Frameworks */,
+				8862230D2C4A639B00BD94B4 /* TomTomSDKRoutePlannerOnline in Frameworks */,
+				886222E92C4A639B00BD94B4 /* TomTomSDKCommon in Frameworks */,
+				886222E52C4A639B00BD94B4 /* TomTomSDKBindingMapDisplayEngineInternal in Frameworks */,
+				888588FC2C4DB4EE00646C38 /* TomTomSDKNavigation in Frameworks */,
+				886222F92C4A639B00BD94B4 /* TomTomSDKNetworking in Frameworks */,
+				886223072C4A639B00BD94B4 /* TomTomSDKReverseGeocoderOnline in Frameworks */,
+				788ED3453FD329F2B6582001 /* Pods_YapePrueba.framework in Frameworks */,
+				888589082C4DB4EE00646C38 /* TomTomSDKNavigationUI in Frameworks */,
+				886222FD2C4A639B00BD94B4 /* TomTomSDKPersonalData in Frameworks */,
+				886222F12C4A639B00BD94B4 /* TomTomSDKFeatureToggle in Frameworks */,
+				886223212C4A639B00BD94B4 /* TomTomSDKTrafficDataProvider in Frameworks */,
+				886223032C4A639B00BD94B4 /* TomTomSDKRangeVisualization in Frameworks */,
+				888588FE2C4DB4EE00646C38 /* TomTomSDKNavigationEngines in Frameworks */,
+				8862231B2C4A639B00BD94B4 /* TomTomSDKSearchVisualization in Frameworks */,
+				886223112C4A639B00BD94B4 /* TomTomSDKRoutingVisualization in Frameworks */,
+				888589022C4DB4EE00646C38 /* TomTomSDKNavigationOffRoad in Frameworks */,
+				8862230B2C4A639B00BD94B4 /* TomTomSDKRoutePlanner in Frameworks */,
+				886222E72C4A639B00BD94B4 /* TomTomSDKBindingTrafficTileGeneratorInternal in Frameworks */,
+				8862231F2C4A639B00BD94B4 /* TomTomSDKTraffic in Frameworks */,
+				8862231D2C4A639B00BD94B4 /* TomTomSDKTelemetry in Frameworks */,
+				886223152C4A639B00BD94B4 /* TomTomSDKSearchCommon in Frameworks */,
+				886223232C4A639B00BD94B4 /* TomTomSDKVehicle in Frameworks */,
+				886222FF2C4A639B00BD94B4 /* TomTomSDKPersonalDataDefault in Frameworks */,
+				886223012C4A639B00BD94B4 /* TomTomSDKRangeCalculator in Frameworks */,
+				886223172C4A639B00BD94B4 /* TomTomSDKSearchOnline in Frameworks */,
+				888589062C4DB4EE00646C38 /* TomTomSDKNavigationTileStore in Frameworks */,
+				886222ED2C4A639B00BD94B4 /* TomTomSDKDynamicData in Frameworks */,
+				886222EF2C4A639B00BD94B4 /* TomTomSDKDynamicDataOnline in Frameworks */,
+				886222F32C4A639B00BD94B4 /* TomTomSDKLocationProvider in Frameworks */,
+				886223192C4A639B00BD94B4 /* TomTomSDKSearchUI in Frameworks */,
+				888589002C4DB4EE00646C38 /* TomTomSDKNavigationHorizonDataAdapter in Frameworks */,
+				886223092C4A639B00BD94B4 /* TomTomSDKRoute in Frameworks */,
+				888589042C4DB4EE00646C38 /* TomTomSDKNavigationOnline in Frameworks */,
+				8885890A2C4DB4EE00646C38 /* TomTomSDKNavigationVisualization in Frameworks */,
+				886223052C4A639B00BD94B4 /* TomTomSDKReverseGeocoder in Frameworks */,
+				886222F72C4A639B00BD94B4 /* TomTomSDKMapDisplay in Frameworks */,
+				886222F52C4A639B00BD94B4 /* TomTomSDKMQTT in Frameworks */,
+				886222FB2C4A639B00BD94B4 /* TomTomSDKPOIVisualization in Frameworks */,
+				886223132C4A639B00BD94B4 /* TomTomSDKSearch in Frameworks */,
+				886222E32C4A639B00BD94B4 /* TomTomSDKBindingFrameworkLoggingInternal in Frameworks */,
+				886222E12C4A639B00BD94B4 /* TomTomSDKBindingFrameworkHTTPInternal in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +289,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C96D6B74D82D17B08CDDABC /* Pods_YapePruebaTests.framework in Frameworks */,
+				88F84F0D2C4DF779006273EC /* TomTomSDKPersonalData in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +298,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DC1C4CCE4A7A5FE2721721B /* Pods_YapePrueba_YapePruebaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		162A81F6D016A6B532FF74B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E2417309DA3416EF16F2A69 /* Pods-YapePrueba.debug.xcconfig */,
+				EB0155BF7CE689300609C7AF /* Pods-YapePrueba.release.xcconfig */,
+				A4805741798E96CE3E399BE4 /* Pods-YapePrueba-YapePruebaUITests.debug.xcconfig */,
+				3322E7BC88BBC1C7A231A11C /* Pods-YapePrueba-YapePruebaUITests.release.xcconfig */,
+				5545464157BF68AE1A76B139 /* Pods-YapePruebaTests.debug.xcconfig */,
+				DB249B6AAD9508C1BE8D9CA0 /* Pods-YapePruebaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		884B0AB42C45E127009229A0 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +325,8 @@
 				884B0AD62C45E12D009229A0 /* YapePruebaTests */,
 				884B0AE02C45E12D009229A0 /* YapePruebaUITests */,
 				884B0ABE2C45E127009229A0 /* Products */,
+				162A81F6D016A6B532FF74B5 /* Pods */,
+				E6330B82A4AB8DAC5505FA05 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +343,13 @@
 		884B0ABF2C45E127009229A0 /* YapePrueba */ = {
 			isa = PBXGroup;
 			children = (
+				884B0B372C48308F009229A0 /* Extensions */,
+				884B0B142C47378D009229A0 /* Interceptors */,
+				884B0AF42C45ECA7009229A0 /* Domain */,
+				884B0AF12C45EBF1009229A0 /* Presentation */,
 				884B0AC02C45E127009229A0 /* AppDelegate.swift */,
 				884B0AC22C45E127009229A0 /* SceneDelegate.swift */,
-				884B0AC42C45E127009229A0 /* ViewController.swift */,
-				884B0AC62C45E127009229A0 /* Main.storyboard */,
 				884B0AC92C45E12C009229A0 /* Assets.xcassets */,
-				884B0ACB2C45E12C009229A0 /* LaunchScreen.storyboard */,
 				884B0ACE2C45E12C009229A0 /* Info.plist */,
 			);
 			path = YapePrueba;
@@ -127,6 +372,335 @@
 			path = YapePruebaUITests;
 			sourceTree = "<group>";
 		};
+		884B0AF12C45EBF1009229A0 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				884B0B3C2C4833CF009229A0 /* LauncherView */,
+				884B0B3F2C4850B4009229A0 /* Base */,
+				884B0B522C486718009229A0 /* Components */,
+				886222CE2C4A571100BD94B4 /* RouteView */,
+				886222B22C4A12CE00BD94B4 /* DetailRecipeView */,
+				884B0B012C460297009229A0 /* HomeView */,
+				884B0AF22C45EC0A009229A0 /* Views */,
+				884B0B3A2C48318D009229A0 /* YapeNavegationView.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		884B0AF22C45EC0A009229A0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				884B0AC62C45E127009229A0 /* Main.storyboard */,
+				884B0ACB2C45E12C009229A0 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		884B0AF42C45ECA7009229A0 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				884B0B472C485181009229A0 /* ErrorHandler */,
+				884B0AF52C45ED45009229A0 /* Network */,
+				884B0B2D2C47E89F009229A0 /* DataConstants.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		884B0AF52C45ED45009229A0 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				884B0B112C47352E009229A0 /* Protocols */,
+				884B0B092C472A5B009229A0 /* NetworkService.swift */,
+				884B0B0B2C473106009229A0 /* Request.swift */,
+				884B0B0D2C4732CE009229A0 /* APIResponse.swift */,
+				884B0B0F2C47334E009229A0 /* APIError.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		884B0B012C460297009229A0 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				884B0B302C481A4C009229A0 /* HomeViewModel.swift */,
+				884B0B4B2C485BBA009229A0 /* HomeViewContract.swift */,
+				884B0B4D2C485C5F009229A0 /* HomeYapeState.swift */,
+				88D78B1C2C4934DE009FB141 /* HomeViewUI.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		884B0B112C47352E009229A0 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				884B0B122C473591009229A0 /* NetworkServiceType.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		884B0B142C47378D009229A0 /* Interceptors */ = {
+			isa = PBXGroup;
+			children = (
+				884B0B282C47E761009229A0 /* Interactors */,
+				884B0B222C47E529009229A0 /* Wrapers */,
+				884B0B1F2C47E484009229A0 /* Response */,
+				884B0B1C2C47E2F6009229A0 /* Objects */,
+				884B0B152C47379F009229A0 /* Repository */,
+				884B0B1A2C473B2B009229A0 /* Injection.swift */,
+			);
+			path = Interceptors;
+			sourceTree = "<group>";
+		};
+		884B0B152C47379F009229A0 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				884B0B162C4737BA009229A0 /* YapePruebaRepository.swift */,
+				884B0B182C4737ED009229A0 /* YapePruebaRepositoryType.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		884B0B1C2C47E2F6009229A0 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				884B0B1D2C47E314009229A0 /* RecipeObject.swift */,
+				886222C82C4A349000BD94B4 /* IngredientsObject.swift */,
+				886222CA2C4A504400BD94B4 /* StepStepObject.swift */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		884B0B1F2C47E484009229A0 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				884B0B202C47E49F009229A0 /* ApiRecipeObject.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		884B0B222C47E529009229A0 /* Wrapers */ = {
+			isa = PBXGroup;
+			children = (
+				884B0B252C47E72D009229A0 /* Protocols */,
+				884B0B232C47E548009229A0 /* YapeWrapper.swift */,
+			);
+			path = Wrapers;
+			sourceTree = "<group>";
+		};
+		884B0B252C47E72D009229A0 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				884B0B262C47E742009229A0 /* WrapperType.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		884B0B282C47E761009229A0 /* Interactors */ = {
+			isa = PBXGroup;
+			children = (
+				884B0B292C47E782009229A0 /* Interactor.swift */,
+				884B0B2B2C47E7E0009229A0 /* GetYapeRecipesInteractor.swift */,
+			);
+			path = Interactors;
+			sourceTree = "<group>";
+		};
+		884B0B372C48308F009229A0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				884B0B382C4830B9009229A0 /* URLSession+Extensions.swift */,
+				884B0B552C4867BE009229A0 /* Colors+Extesions.swift */,
+				88D78B1E2C493504009FB141 /* SkeletonForEachWithIndex.swift */,
+				88D78B292C4939FD009FB141 /* Url+Extension.swift */,
+				88D78B342C497DE4009FB141 /* Image+Extensions.swift */,
+				88D78B362C497EC7009FB141 /* View+Extension.swift */,
+				886222C22C4A21E500BD94B4 /* UIApplication+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		884B0B3C2C4833CF009229A0 /* LauncherView */ = {
+			isa = PBXGroup;
+			children = (
+				884B0B3D2C4833E2009229A0 /* LauncherViewController.swift */,
+			);
+			path = LauncherView;
+			sourceTree = "<group>";
+		};
+		884B0B3F2C4850B4009229A0 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				884B0B442C48511E009229A0 /* Protocols */,
+				884B0B402C4850DA009229A0 /* BaseNewModel.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		884B0B442C48511E009229A0 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				884B0B422C485108009229A0 /* BaseViewModelProtocol.swift */,
+				884B0B452C48513D009229A0 /* BaseView.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		884B0B472C485181009229A0 /* ErrorHandler */ = {
+			isa = PBXGroup;
+			children = (
+				884B0B482C485191009229A0 /* ErrorHandlerProtocol.swift */,
+			);
+			path = ErrorHandler;
+			sourceTree = "<group>";
+		};
+		884B0B4F2C486657009229A0 /* YapeErrorView */ = {
+			isa = PBXGroup;
+			children = (
+				884B0B502C4866C1009229A0 /* YapeErrorType.swift */,
+				884B0B572C4876C3009229A0 /* YapeErrorProtocol.swift */,
+				884B0B5B2C487792009229A0 /* YapeErrorView.swift */,
+			);
+			path = YapeErrorView;
+			sourceTree = "<group>";
+		};
+		884B0B522C486718009229A0 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				886223252C4A6B7E00BD94B4 /* BackButton */,
+				886222BD2C4A1B0F00BD94B4 /* CustomTabView */,
+				88D78B382C497EEA009FB141 /* RoundedCorner */,
+				88D78B2B2C493CEC009FB141 /* ButtonSelectedView */,
+				88D78B262C493943009FB141 /* Indicator */,
+				88D78B232C4937C3009FB141 /* Cells */,
+				88D78B202C49370F009FB141 /* CarouselView */,
+				884B0B4F2C486657009229A0 /* YapeErrorView */,
+				884B0B532C48673C009229A0 /* ConstantsUi.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		886222B22C4A12CE00BD94B4 /* DetailRecipeView */ = {
+			isa = PBXGroup;
+			children = (
+				886222B32C4A130F00BD94B4 /* DetailRecipeState.swift */,
+				886222B52C4A141400BD94B4 /* DetailRecipeViewModelType.swift */,
+				886222B72C4A147400BD94B4 /* DetailRecipeData.swift */,
+				886222B92C4A14CD00BD94B4 /* DetailRecipeViewModel.swift */,
+				886222BB2C4A15B400BD94B4 /* DetailRecipeViewUI.swift */,
+			);
+			path = DetailRecipeView;
+			sourceTree = "<group>";
+		};
+		886222BD2C4A1B0F00BD94B4 /* CustomTabView */ = {
+			isa = PBXGroup;
+			children = (
+				886222BE2C4A1B3900BD94B4 /* CustomTabView.swift */,
+				886222C02C4A1D5700BD94B4 /* TabViewItem.swift */,
+				886222CC2C4A516000BD94B4 /* TabCountViewItem.swift */,
+			);
+			path = CustomTabView;
+			sourceTree = "<group>";
+		};
+		886222CE2C4A571100BD94B4 /* RouteView */ = {
+			isa = PBXGroup;
+			children = (
+				886222DB2C4A5EFF00BD94B4 /* TomTomMaps */,
+				886222CF2C4A583900BD94B4 /* RouteViewState.swift */,
+				886222D12C4A588F00BD94B4 /* RouteViewModelType.swift */,
+				886222D32C4A58C100BD94B4 /* RouteData.swift */,
+				886222D52C4A58FF00BD94B4 /* RouteViewModel.swift */,
+				886222D72C4A5A8B00BD94B4 /* RouteViewUI.swift */,
+			);
+			path = RouteView;
+			sourceTree = "<group>";
+		};
+		886222DB2C4A5EFF00BD94B4 /* TomTomMaps */ = {
+			isa = PBXGroup;
+			children = (
+				886222DC2C4A5F4600BD94B4 /* Utils */,
+				888588F72C4DAA4000646C38 /* NavigationController.swift */,
+				88F84F112C4E7BED006273EC /* Content.swift */,
+			);
+			path = TomTomMaps;
+			sourceTree = "<group>";
+		};
+		886222DC2C4A5F4600BD94B4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				886222D92C4A5B2100BD94B4 /* Keys.swift */,
+				886222DD2C4A5F5A00BD94B4 /* TomTomServices.swift */,
+				8862232C2C4D382200BD94B4 /* MapCoordinator.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		886223252C4A6B7E00BD94B4 /* BackButton */ = {
+			isa = PBXGroup;
+			children = (
+				886223262C4A6C2400BD94B4 /* BackButton.swift */,
+			);
+			path = BackButton;
+			sourceTree = "<group>";
+		};
+		88D78B202C49370F009FB141 /* CarouselView */ = {
+			isa = PBXGroup;
+			children = (
+				88D78B212C49377A009FB141 /* CarouselView.swift */,
+			);
+			path = CarouselView;
+			sourceTree = "<group>";
+		};
+		88D78B232C4937C3009FB141 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				88D78B312C497CF4009FB141 /* RecipeViewCells */,
+				88D78B242C4937E7009FB141 /* CarouselCellView.swift */,
+				88D78B2F2C497C56009FB141 /* RecipeCellView.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		88D78B262C493943009FB141 /* Indicator */ = {
+			isa = PBXGroup;
+			children = (
+				88D78B272C49395A009FB141 /* ActivityIndicator.swift */,
+			);
+			path = Indicator;
+			sourceTree = "<group>";
+		};
+		88D78B2B2C493CEC009FB141 /* ButtonSelectedView */ = {
+			isa = PBXGroup;
+			children = (
+				88D78B2C2C493CFA009FB141 /* ButtonSelectedView.swift */,
+			);
+			path = ButtonSelectedView;
+			sourceTree = "<group>";
+		};
+		88D78B312C497CF4009FB141 /* RecipeViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				88D78B322C497D11009FB141 /* RecipeCellViewVertical.swift */,
+				88D78B3B2C497F54009FB141 /* RecipeCellViewHorizontal.swift */,
+			);
+			path = RecipeViewCells;
+			sourceTree = "<group>";
+		};
+		88D78B382C497EEA009FB141 /* RoundedCorner */ = {
+			isa = PBXGroup;
+			children = (
+				88D78B392C497EF7009FB141 /* RoundedCorner.swift */,
+			);
+			path = RoundedCorner;
+			sourceTree = "<group>";
+		};
+		E6330B82A4AB8DAC5505FA05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FB6E8A68BB8AAC54AD1C961 /* Pods_YapePrueba.framework */,
+				2B3FFEF94D23588C527D6EA9 /* Pods_YapePrueba_YapePruebaUITests.framework */,
+				41B4ACE4EEA8DBD00C4E5231 /* Pods_YapePruebaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,15 +708,61 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 884B0AE72C45E12D009229A0 /* Build configuration list for PBXNativeTarget "YapePrueba" */;
 			buildPhases = (
+				7A8B99952ADD3EA231B73DDC /* [CP] Check Pods Manifest.lock */,
 				884B0AB92C45E127009229A0 /* Sources */,
 				884B0ABA2C45E127009229A0 /* Frameworks */,
 				884B0ABB2C45E127009229A0 /* Resources */,
+				86EA1BDAFA3ABC164829E59A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = YapePrueba;
+			packageProductDependencies = (
+				886222E02C4A639B00BD94B4 /* TomTomSDKBindingFrameworkHTTPInternal */,
+				886222E22C4A639B00BD94B4 /* TomTomSDKBindingFrameworkLoggingInternal */,
+				886222E42C4A639B00BD94B4 /* TomTomSDKBindingMapDisplayEngineInternal */,
+				886222E62C4A639B00BD94B4 /* TomTomSDKBindingTrafficTileGeneratorInternal */,
+				886222E82C4A639B00BD94B4 /* TomTomSDKCommon */,
+				886222EA2C4A639B00BD94B4 /* TomTomSDKCommonUI */,
+				886222EC2C4A639B00BD94B4 /* TomTomSDKDynamicData */,
+				886222EE2C4A639B00BD94B4 /* TomTomSDKDynamicDataOnline */,
+				886222F02C4A639B00BD94B4 /* TomTomSDKFeatureToggle */,
+				886222F22C4A639B00BD94B4 /* TomTomSDKLocationProvider */,
+				886222F42C4A639B00BD94B4 /* TomTomSDKMQTT */,
+				886222F62C4A639B00BD94B4 /* TomTomSDKMapDisplay */,
+				886222F82C4A639B00BD94B4 /* TomTomSDKNetworking */,
+				886222FA2C4A639B00BD94B4 /* TomTomSDKPOIVisualization */,
+				886222FC2C4A639B00BD94B4 /* TomTomSDKPersonalData */,
+				886222FE2C4A639B00BD94B4 /* TomTomSDKPersonalDataDefault */,
+				886223002C4A639B00BD94B4 /* TomTomSDKRangeCalculator */,
+				886223022C4A639B00BD94B4 /* TomTomSDKRangeVisualization */,
+				886223042C4A639B00BD94B4 /* TomTomSDKReverseGeocoder */,
+				886223062C4A639B00BD94B4 /* TomTomSDKReverseGeocoderOnline */,
+				886223082C4A639B00BD94B4 /* TomTomSDKRoute */,
+				8862230A2C4A639B00BD94B4 /* TomTomSDKRoutePlanner */,
+				8862230C2C4A639B00BD94B4 /* TomTomSDKRoutePlannerOnline */,
+				8862230E2C4A639B00BD94B4 /* TomTomSDKRoutingCommon */,
+				886223102C4A639B00BD94B4 /* TomTomSDKRoutingVisualization */,
+				886223122C4A639B00BD94B4 /* TomTomSDKSearch */,
+				886223142C4A639B00BD94B4 /* TomTomSDKSearchCommon */,
+				886223162C4A639B00BD94B4 /* TomTomSDKSearchOnline */,
+				886223182C4A639B00BD94B4 /* TomTomSDKSearchUI */,
+				8862231A2C4A639B00BD94B4 /* TomTomSDKSearchVisualization */,
+				8862231C2C4A639B00BD94B4 /* TomTomSDKTelemetry */,
+				8862231E2C4A639B00BD94B4 /* TomTomSDKTraffic */,
+				886223202C4A639B00BD94B4 /* TomTomSDKTrafficDataProvider */,
+				886223222C4A639B00BD94B4 /* TomTomSDKVehicle */,
+				888588FB2C4DB4EE00646C38 /* TomTomSDKNavigation */,
+				888588FD2C4DB4EE00646C38 /* TomTomSDKNavigationEngines */,
+				888588FF2C4DB4EE00646C38 /* TomTomSDKNavigationHorizonDataAdapter */,
+				888589012C4DB4EE00646C38 /* TomTomSDKNavigationOffRoad */,
+				888589032C4DB4EE00646C38 /* TomTomSDKNavigationOnline */,
+				888589052C4DB4EE00646C38 /* TomTomSDKNavigationTileStore */,
+				888589072C4DB4EE00646C38 /* TomTomSDKNavigationUI */,
+				888589092C4DB4EE00646C38 /* TomTomSDKNavigationVisualization */,
+			);
 			productName = YapePrueba;
 			productReference = 884B0ABD2C45E127009229A0 /* YapePrueba.app */;
 			productType = "com.apple.product-type.application";
@@ -151,6 +771,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 884B0AEA2C45E12D009229A0 /* Build configuration list for PBXNativeTarget "YapePruebaTests" */;
 			buildPhases = (
+				AE17FCE56EF147084371E1B9 /* [CP] Check Pods Manifest.lock */,
 				884B0ACF2C45E12D009229A0 /* Sources */,
 				884B0AD02C45E12D009229A0 /* Frameworks */,
 				884B0AD12C45E12D009229A0 /* Resources */,
@@ -161,6 +782,9 @@
 				884B0AD52C45E12D009229A0 /* PBXTargetDependency */,
 			);
 			name = YapePruebaTests;
+			packageProductDependencies = (
+				88F84F0C2C4DF779006273EC /* TomTomSDKPersonalData */,
+			);
 			productName = YapePruebaTests;
 			productReference = 884B0AD32C45E12D009229A0 /* YapePruebaTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -169,9 +793,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 884B0AED2C45E12D009229A0 /* Build configuration list for PBXNativeTarget "YapePruebaUITests" */;
 			buildPhases = (
+				65B37C3F2AC268260D6ADD9D /* [CP] Check Pods Manifest.lock */,
 				884B0AD92C45E12D009229A0 /* Sources */,
 				884B0ADA2C45E12D009229A0 /* Frameworks */,
 				884B0ADB2C45E12D009229A0 /* Resources */,
+				308257FC5F3ED2DD223D4E89 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -215,6 +841,10 @@
 				Base,
 			);
 			mainGroup = 884B0AB42C45E127009229A0;
+			packageReferences = (
+				886222DF2C4A639B00BD94B4 /* XCRemoteSwiftPackageReference "tomtom-sdk-spm-core" */,
+				886223242C4A697C00BD94B4 /* XCRemoteSwiftPackageReference "tomtom-sdk-spm-navigation" */,
+			);
 			productRefGroup = 884B0ABE2C45E127009229A0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -253,14 +883,181 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		308257FC5F3ED2DD223D4E89 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YapePrueba-YapePruebaUITests/Pods-YapePrueba-YapePruebaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YapePrueba-YapePruebaUITests/Pods-YapePrueba-YapePruebaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YapePrueba-YapePruebaUITests/Pods-YapePrueba-YapePruebaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65B37C3F2AC268260D6ADD9D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YapePrueba-YapePruebaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A8B99952ADD3EA231B73DDC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YapePrueba-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86EA1BDAFA3ABC164829E59A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YapePrueba/Pods-YapePrueba-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YapePrueba/Pods-YapePrueba-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YapePrueba/Pods-YapePrueba-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE17FCE56EF147084371E1B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YapePruebaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		884B0AB92C45E127009229A0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				884B0AC52C45E127009229A0 /* ViewController.swift in Sources */,
+				884B0B392C4830B9009229A0 /* URLSession+Extensions.swift in Sources */,
+				886222C92C4A349000BD94B4 /* IngredientsObject.swift in Sources */,
+				884B0B242C47E548009229A0 /* YapeWrapper.swift in Sources */,
+				886222B62C4A141400BD94B4 /* DetailRecipeViewModelType.swift in Sources */,
+				886222BF2C4A1B3900BD94B4 /* CustomTabView.swift in Sources */,
+				88D78B282C49395A009FB141 /* ActivityIndicator.swift in Sources */,
+				884B0B5C2C487792009229A0 /* YapeErrorView.swift in Sources */,
+				884B0B432C485108009229A0 /* BaseViewModelProtocol.swift in Sources */,
+				886222B82C4A147400BD94B4 /* DetailRecipeData.swift in Sources */,
+				884B0B312C481A4C009229A0 /* HomeViewModel.swift in Sources */,
+				884B0B2E2C47E89F009229A0 /* DataConstants.swift in Sources */,
+				884B0B512C4866C1009229A0 /* YapeErrorType.swift in Sources */,
+				884B0B3E2C4833E2009229A0 /* LauncherViewController.swift in Sources */,
+				886222DA2C4A5B2100BD94B4 /* Keys.swift in Sources */,
+				884B0B582C4876C3009229A0 /* YapeErrorProtocol.swift in Sources */,
+				886222C12C4A1D5700BD94B4 /* TabViewItem.swift in Sources */,
+				884B0B132C473591009229A0 /* NetworkServiceType.swift in Sources */,
+				88D78B2D2C493CFA009FB141 /* ButtonSelectedView.swift in Sources */,
+				886222D42C4A58C100BD94B4 /* RouteData.swift in Sources */,
+				886222BA2C4A14CD00BD94B4 /* DetailRecipeViewModel.swift in Sources */,
+				88D78B3A2C497EF7009FB141 /* RoundedCorner.swift in Sources */,
+				884B0B172C4737BA009229A0 /* YapePruebaRepository.swift in Sources */,
+				884B0B1B2C473B2B009229A0 /* Injection.swift in Sources */,
+				884B0B212C47E49F009229A0 /* ApiRecipeObject.swift in Sources */,
+				886223272C4A6C2400BD94B4 /* BackButton.swift in Sources */,
+				884B0B412C4850DA009229A0 /* BaseNewModel.swift in Sources */,
+				884B0B562C4867BE009229A0 /* Colors+Extesions.swift in Sources */,
+				886222D82C4A5A8B00BD94B4 /* RouteViewUI.swift in Sources */,
+				884B0B1E2C47E314009229A0 /* RecipeObject.swift in Sources */,
+				88D78B372C497EC7009FB141 /* View+Extension.swift in Sources */,
+				886222D02C4A583900BD94B4 /* RouteViewState.swift in Sources */,
+				888588F82C4DAA4000646C38 /* NavigationController.swift in Sources */,
+				884B0B2A2C47E782009229A0 /* Interactor.swift in Sources */,
+				884B0B272C47E742009229A0 /* WrapperType.swift in Sources */,
 				884B0AC12C45E127009229A0 /* AppDelegate.swift in Sources */,
+				884B0B462C48513D009229A0 /* BaseView.swift in Sources */,
+				88D78B3C2C497F54009FB141 /* RecipeCellViewHorizontal.swift in Sources */,
+				886222D22C4A588F00BD94B4 /* RouteViewModelType.swift in Sources */,
+				88D78B252C4937E7009FB141 /* CarouselCellView.swift in Sources */,
+				88D78B1F2C493504009FB141 /* SkeletonForEachWithIndex.swift in Sources */,
+				884B0B0C2C473106009229A0 /* Request.swift in Sources */,
+				886222B42C4A130F00BD94B4 /* DetailRecipeState.swift in Sources */,
+				88D78B222C49377A009FB141 /* CarouselView.swift in Sources */,
+				88D78B1D2C4934DE009FB141 /* HomeViewUI.swift in Sources */,
+				884B0B3B2C48318D009229A0 /* YapeNavegationView.swift in Sources */,
+				884B0B0A2C472A5B009229A0 /* NetworkService.swift in Sources */,
+				886222D62C4A58FF00BD94B4 /* RouteViewModel.swift in Sources */,
 				884B0AC32C45E127009229A0 /* SceneDelegate.swift in Sources */,
+				88D78B332C497D11009FB141 /* RecipeCellViewVertical.swift in Sources */,
+				884B0B0E2C4732CE009229A0 /* APIResponse.swift in Sources */,
+				884B0B4E2C485C5F009229A0 /* HomeYapeState.swift in Sources */,
+				88F84F122C4E7BED006273EC /* Content.swift in Sources */,
+				886222CD2C4A516000BD94B4 /* TabCountViewItem.swift in Sources */,
+				884B0B2C2C47E7E0009229A0 /* GetYapeRecipesInteractor.swift in Sources */,
+				88D78B2A2C4939FD009FB141 /* Url+Extension.swift in Sources */,
+				88D78B352C497DE4009FB141 /* Image+Extensions.swift in Sources */,
+				886222DE2C4A5F5A00BD94B4 /* TomTomServices.swift in Sources */,
+				886222BC2C4A15B400BD94B4 /* DetailRecipeViewUI.swift in Sources */,
+				8862232D2C4D382200BD94B4 /* MapCoordinator.swift in Sources */,
+				884B0B542C48673C009229A0 /* ConstantsUi.swift in Sources */,
+				886222CB2C4A504400BD94B4 /* StepStepObject.swift in Sources */,
+				884B0B492C485191009229A0 /* ErrorHandlerProtocol.swift in Sources */,
+				884B0B4C2C485BBA009229A0 /* HomeViewContract.swift in Sources */,
+				88D78B302C497C56009FB141 /* RecipeCellView.swift in Sources */,
+				884B0B102C47334E009229A0 /* APIError.swift in Sources */,
+				884B0B192C4737ED009229A0 /* YapePruebaRepositoryType.swift in Sources */,
+				886222C32C4A21E500BD94B4 /* UIApplication+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,7 +1150,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -416,7 +1213,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -437,13 +1234,17 @@
 		};
 		884B0AE82C45E12D009229A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E2417309DA3416EF16F2A69 /* Pods-YapePrueba.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4AMTKY56U6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = YapePrueba/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = YapePrueba;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -456,21 +1257,28 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = horusdavnefer.YapePrueba;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		884B0AE92C45E12D009229A0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB0155BF7CE689300609C7AF /* Pods-YapePrueba.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4AMTKY56U6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = YapePrueba/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = YapePrueba;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -483,14 +1291,18 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = horusdavnefer.YapePrueba;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		884B0AEB2C45E12D009229A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5545464157BF68AE1A76B139 /* Pods-YapePruebaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +1322,7 @@
 		};
 		884B0AEC2C45E12D009229A0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB249B6AAD9508C1BE8D9CA0 /* Pods-YapePruebaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -529,6 +1342,7 @@
 		};
 		884B0AEE2C45E12D009229A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4805741798E96CE3E399BE4 /* Pods-YapePrueba-YapePruebaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +1360,7 @@
 		};
 		884B0AEF2C45E12D009229A0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3322E7BC88BBC1C7A231A11C /* Pods-YapePrueba-YapePruebaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -601,6 +1416,243 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		886222DF2C4A639B00BD94B4 /* XCRemoteSwiftPackageReference "tomtom-sdk-spm-core" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tomtom-international/tomtom-sdk-spm-core";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.54.0;
+			};
+		};
+		886223242C4A697C00BD94B4 /* XCRemoteSwiftPackageReference "tomtom-sdk-spm-navigation" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tomtom-international/tomtom-sdk-spm-navigation";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.54.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		886222E02C4A639B00BD94B4 /* TomTomSDKBindingFrameworkHTTPInternal */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 886222DF2C4A639B00BD94B4 /* XCRemoteSwiftPackageReference "tomtom-sdk-spm-core" */;
+			productName = TomTomSDKBindingFrameworkHTTPInternal;
+		};
+		886222E22C4A639B00BD94B4 /* TomTomSDKBindingFrameworkLoggingInternal */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 886222DF2C4A639B00BD94B4 /* XCRemoteSwiftPackageReference "tomtom-sdk-spm-core" */;
+			productName = TomTomSDKBindingFrameworkLoggingInternal;
+		};
+		886222E42C4A639B00BD94B4 /* TomTomSDKBindingMapDisplayEngineInternal */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 886222DF2C4A639B00BD94B4 /* XCRemoteSwiftPackageReference "tomtom-sdk-spm-core" */;
+			productName = TomTomSDKBindingMapDisplayEngineInternal;
+		};
+		886222E62C4A639B00BD94B4 /* TomTomSDKBindingTrafficTileGeneratorInternal */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 886222DF2C4A639B00BD94B4 /* XCRemoteSwiftPackageReference "tomtom-sdk-spm-core" */;
+			productName = TomTomSDKBindingTrafficTileGeneratorInternal;
+		};
+		886222E82C4A639B00BD94B4 /* TomTomSDKCommon */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 886222DF2C4A639B00BD94B4 /* XCRemoteSwiftPackageReference "tomtom-sdk-spm-core" */;
+			productName = TomTomSDKCommon;
+		};
+		886222EA2C4A639B00BD94B4 /* TomTomSDKCommonUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 886222DF2C4A639B00BD94B4 /* XCRemoteSwiftPackageReference "tomtom-sdk-spm-core" */;
+			productName = TomTomSDKCommonUI;
+		};
+		886222EC2C4A639B00BD94B4 /* TomTomSDKDynamicData */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 886222DF2C4A639B00BD94B4 /* XCRemoteSwiftPackageReference "tomtom-sdk-spm-core" */;
+			productName = TomTomSDKDynamicData;
+		};
+		886222EE2C4A639B00BD94B4 /* TomTomSDKDynamicDataOnline */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 886222DF2C4A639B00BD94B4 /* XCRemoteSwiftPackageReference "tomtom-sdk-spm-core" */;
+			productName = TomTomSDKDynamicDataOnline;
+		};
+		886222F02C4A639B00BD94B4 /* TomTomSDKFeatureToggle */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 886222DF2C4A639B00BD94B4 /* XCRemoteSwiftPackageReference "tomtom-sdk-spm-core" */;
+			productName = TomTomSDKFeatureToggle;
+		};
+		886222F22C4A639B00BD94B4 /* TomTomSDKLocationProvider */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 886222DF2C4A639B00BD94B4 /* XCRemoteSwiftPackageReference "tomtom-sdk-spm-core" */;
+			productName = TomTomSDKLocationProvider;
+		};
+		886222F42C4A639B00BD94B4 /* TomTomSDKMQTT */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 886222DF2C4A639B00BD94B4 /* XCRemoteSwiftPackageReference "tomtom-sdk-spm-core" */;
+			productName = TomTomSDKMQTT;
+		};
+		886222F62C4A639B00BD94B4 /* TomTomSDKMapDisplay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 886222DF2C4A639B00BD94B4 /* XCRemoteSwiftPackageReference "tomtom-sdk-spm-core" */;
+			productName = TomTomSDKMapDisplay;
+		};
+		886222F82C4A639B00BD94B4 /* TomTomSDKNetworking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 886222DF2C4A639B00BD94B4 /* XCRemoteSwiftPackageReference "tomtom-sdk-spm-core" */;
+			productName = TomTomSDKNetworking;
+		};
+		886222FA2C4A639B00BD94B4 /* TomTomSDKPOIVisualization */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 886222DF2C4A639B00BD94B4 /* XCRemoteSwiftPackageReference "tomtom-sdk-spm-core" */;
+			productName = TomTomSDKPOIVisualization;
+		};
+		886222FC2C4A639B00BD94B4 /* TomTomSDKPersonalData */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 886222DF2C4A639B00BD94B4 /* XCRemoteSwiftPackageReference "tomtom-sdk-spm-core" */;
+			productName = TomTomSDKPersonalData;
+		};
+		886222FE2C4A639B00BD94B4 /* TomTomSDKPersonalDataDefault */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 886222DF2C4A639B00BD94B4 /* XCRemoteSwiftPackageReference "tomtom-sdk-spm-core" */;
+			productName = TomTomSDKPersonalDataDefault;
+		};
+		886223002C4A639B00BD94B4 /* TomTomSDKRangeCalculator */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 886222DF2C4A639B00BD94B4 /* XCRemoteSwiftPackageReference "tomtom-sdk-spm-core" */;
+			productName = TomTomSDKRangeCalculator;
+		};
+		886223022C4A639B00BD94B4 /* TomTomSDKRangeVisualization */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 886222DF2C4A639B00BD94B4 /* XCRemoteSwiftPackageReference "tomtom-sdk-spm-core" */;
+			productName = TomTomSDKRangeVisualization;
+		};
+		886223042C4A639B00BD94B4 /* TomTomSDKReverseGeocoder */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 886222DF2C4A639B00BD94B4 /* XCRemoteSwiftPackageReference "tomtom-sdk-spm-core" */;
+			productName = TomTomSDKReverseGeocoder;
+		};
+		886223062C4A639B00BD94B4 /* TomTomSDKReverseGeocoderOnline */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 886222DF2C4A639B00BD94B4 /* XCRemoteSwiftPackageReference "tomtom-sdk-spm-core" */;
+			productName = TomTomSDKReverseGeocoderOnline;
+		};
+		886223082C4A639B00BD94B4 /* TomTomSDKRoute */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 886222DF2C4A639B00BD94B4 /* XCRemoteSwiftPackageReference "tomtom-sdk-spm-core" */;
+			productName = TomTomSDKRoute;
+		};
+		8862230A2C4A639B00BD94B4 /* TomTomSDKRoutePlanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 886222DF2C4A639B00BD94B4 /* XCRemoteSwiftPackageReference "tomtom-sdk-spm-core" */;
+			productName = TomTomSDKRoutePlanner;
+		};
+		8862230C2C4A639B00BD94B4 /* TomTomSDKRoutePlannerOnline */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 886222DF2C4A639B00BD94B4 /* XCRemoteSwiftPackageReference "tomtom-sdk-spm-core" */;
+			productName = TomTomSDKRoutePlannerOnline;
+		};
+		8862230E2C4A639B00BD94B4 /* TomTomSDKRoutingCommon */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 886222DF2C4A639B00BD94B4 /* XCRemoteSwiftPackageReference "tomtom-sdk-spm-core" */;
+			productName = TomTomSDKRoutingCommon;
+		};
+		886223102C4A639B00BD94B4 /* TomTomSDKRoutingVisualization */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 886222DF2C4A639B00BD94B4 /* XCRemoteSwiftPackageReference "tomtom-sdk-spm-core" */;
+			productName = TomTomSDKRoutingVisualization;
+		};
+		886223122C4A639B00BD94B4 /* TomTomSDKSearch */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 886222DF2C4A639B00BD94B4 /* XCRemoteSwiftPackageReference "tomtom-sdk-spm-core" */;
+			productName = TomTomSDKSearch;
+		};
+		886223142C4A639B00BD94B4 /* TomTomSDKSearchCommon */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 886222DF2C4A639B00BD94B4 /* XCRemoteSwiftPackageReference "tomtom-sdk-spm-core" */;
+			productName = TomTomSDKSearchCommon;
+		};
+		886223162C4A639B00BD94B4 /* TomTomSDKSearchOnline */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 886222DF2C4A639B00BD94B4 /* XCRemoteSwiftPackageReference "tomtom-sdk-spm-core" */;
+			productName = TomTomSDKSearchOnline;
+		};
+		886223182C4A639B00BD94B4 /* TomTomSDKSearchUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 886222DF2C4A639B00BD94B4 /* XCRemoteSwiftPackageReference "tomtom-sdk-spm-core" */;
+			productName = TomTomSDKSearchUI;
+		};
+		8862231A2C4A639B00BD94B4 /* TomTomSDKSearchVisualization */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 886222DF2C4A639B00BD94B4 /* XCRemoteSwiftPackageReference "tomtom-sdk-spm-core" */;
+			productName = TomTomSDKSearchVisualization;
+		};
+		8862231C2C4A639B00BD94B4 /* TomTomSDKTelemetry */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 886222DF2C4A639B00BD94B4 /* XCRemoteSwiftPackageReference "tomtom-sdk-spm-core" */;
+			productName = TomTomSDKTelemetry;
+		};
+		8862231E2C4A639B00BD94B4 /* TomTomSDKTraffic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 886222DF2C4A639B00BD94B4 /* XCRemoteSwiftPackageReference "tomtom-sdk-spm-core" */;
+			productName = TomTomSDKTraffic;
+		};
+		886223202C4A639B00BD94B4 /* TomTomSDKTrafficDataProvider */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 886222DF2C4A639B00BD94B4 /* XCRemoteSwiftPackageReference "tomtom-sdk-spm-core" */;
+			productName = TomTomSDKTrafficDataProvider;
+		};
+		886223222C4A639B00BD94B4 /* TomTomSDKVehicle */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 886222DF2C4A639B00BD94B4 /* XCRemoteSwiftPackageReference "tomtom-sdk-spm-core" */;
+			productName = TomTomSDKVehicle;
+		};
+		888588FB2C4DB4EE00646C38 /* TomTomSDKNavigation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 886223242C4A697C00BD94B4 /* XCRemoteSwiftPackageReference "tomtom-sdk-spm-navigation" */;
+			productName = TomTomSDKNavigation;
+		};
+		888588FD2C4DB4EE00646C38 /* TomTomSDKNavigationEngines */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 886223242C4A697C00BD94B4 /* XCRemoteSwiftPackageReference "tomtom-sdk-spm-navigation" */;
+			productName = TomTomSDKNavigationEngines;
+		};
+		888588FF2C4DB4EE00646C38 /* TomTomSDKNavigationHorizonDataAdapter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 886223242C4A697C00BD94B4 /* XCRemoteSwiftPackageReference "tomtom-sdk-spm-navigation" */;
+			productName = TomTomSDKNavigationHorizonDataAdapter;
+		};
+		888589012C4DB4EE00646C38 /* TomTomSDKNavigationOffRoad */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 886223242C4A697C00BD94B4 /* XCRemoteSwiftPackageReference "tomtom-sdk-spm-navigation" */;
+			productName = TomTomSDKNavigationOffRoad;
+		};
+		888589032C4DB4EE00646C38 /* TomTomSDKNavigationOnline */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 886223242C4A697C00BD94B4 /* XCRemoteSwiftPackageReference "tomtom-sdk-spm-navigation" */;
+			productName = TomTomSDKNavigationOnline;
+		};
+		888589052C4DB4EE00646C38 /* TomTomSDKNavigationTileStore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 886223242C4A697C00BD94B4 /* XCRemoteSwiftPackageReference "tomtom-sdk-spm-navigation" */;
+			productName = TomTomSDKNavigationTileStore;
+		};
+		888589072C4DB4EE00646C38 /* TomTomSDKNavigationUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 886223242C4A697C00BD94B4 /* XCRemoteSwiftPackageReference "tomtom-sdk-spm-navigation" */;
+			productName = TomTomSDKNavigationUI;
+		};
+		888589092C4DB4EE00646C38 /* TomTomSDKNavigationVisualization */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 886223242C4A697C00BD94B4 /* XCRemoteSwiftPackageReference "tomtom-sdk-spm-navigation" */;
+			productName = TomTomSDKNavigationVisualization;
+		};
+		88F84F0C2C4DF779006273EC /* TomTomSDKPersonalData */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 886222DF2C4A639B00BD94B4 /* XCRemoteSwiftPackageReference "tomtom-sdk-spm-core" */;
+			productName = TomTomSDKPersonalData;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 884B0AB52C45E127009229A0 /* Project object */;
 }

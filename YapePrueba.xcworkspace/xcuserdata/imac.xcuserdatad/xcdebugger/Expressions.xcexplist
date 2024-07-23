@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "closure #1 in NavigationController.planAndDisplayRoute(destination:):NavigationController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.navigation">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "DetailRecipeViewModel.getIngredients():DetailRecipeViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "state.yapeRecipe?.ingredients">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Content.makeCoordinator():Content.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "endCoord">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "NavigationController.init(locationProvider:simulatedLocationProvider:routePlanner:navigation:):NavigationController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "endCoord">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MapCoordinator.init(_:navigationController:endCoord:):MapCoordinator.swift">
+      </ContextState>
+      <ContextState
+         contextName = "NavigationController.navigateToEndCoord():NavigationController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "endCoord">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

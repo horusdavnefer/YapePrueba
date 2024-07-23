@@ -6,14 +6,20 @@
 //
 
 import UIKit
+import Combine
+import Resolver
+import Foundation
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
+    var mercadoPruebaRepository: YapePruebaRepositoryType?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        Resolver.registerYapePruebaModuleDependencies(with: "https://demo9190459.mockable.io/")
+        mercadoPruebaRepository = Resolver.resolve(YapePruebaRepositoryType.self)
         return true
     }
 

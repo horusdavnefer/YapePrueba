@@ -1,0 +1,20 @@
+PODS:
+  - Resolver (1.5.0)
+  - SkeletonUI (2.0.1)
+
+DEPENDENCIES:
+  - Resolver
+  - SkeletonUI
+
+SPEC REPOS:
+  trunk:
+    - Resolver
+    - SkeletonUI
+
+SPEC CHECKSUMS:
+  Resolver: 68984624572763018fd8ec7b8e3e8df0e3b6bba5
+  SkeletonUI: 8d622a4dd755650bd5d50eed1e4180fa146c5d6b
+
+PODFILE CHECKSUM: 63de0c67252be4ff0de7e38673a80fc75646dfe0
+
+COCOAPODS: 1.15.2
